@@ -8,7 +8,6 @@ Welcome to the Text-Based RPG! This game is a console-based adventure inspired b
 - [Installation](#installation)
 - [How to Play](#how-to-play)
 - [File Structure](#file-structure)
-- [Dependencies](#dependencies)
 - [Credits](#credits)
 
 ## Introduction
@@ -29,23 +28,12 @@ This project is a text-based RPG where players can embark on an epic adventure. 
 ## Installation
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/text-based-rpg.git
-    cd text-based-rpg
+    git clone https://github.com/KobeVLM/TextoriaIDK.git
+    cd TextoriaIDK
     ```
-2. **Add dependencies**:
-    - Download the following `.jar` files and place them in the `lib` directory:
-      - [Gson](https://github.com/google/gson/releases)
-      - [JUnit](https://junit.org/junit4/)
-      - [Apache Commons IO](https://commons.apache.org/proper/commons-io/)
-
 3. **Compile the project**:
     ```sh
     javac -d bin src/com/yourgame/**/*.java
-    ```
-
-4. **Run the game**:
-    ```sh
-    java -cp "bin:lib/*" com.yourgame.main.Game
     ```
 
 ## How to Play
