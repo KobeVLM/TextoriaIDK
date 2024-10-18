@@ -1,0 +1,20 @@
+# Ignore Visual Studio Code files
+.vscode/
+*.code-workspace
+
+# Ignore NetBeans files
+nbproject/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Ignore build artifacts
+bin/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
